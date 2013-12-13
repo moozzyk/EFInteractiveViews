@@ -4,10 +4,10 @@
     <id>EFInteractiveViews</id>
     <version>1.0.0</version>
     <authors>Pawel Kadluczka</authors>
-    <licenseUrl>https://interactiveviews.codeplex.com/license</licenseUrl>
-    <projectUrl>https://interactiveviews.codeplex.com</projectUrl>
+    <licenseUrl>https://efinteractiveviews.codeplex.com/license</licenseUrl>
+    <projectUrl>https://efinteractiveviews.codeplex.com</projectUrl>
     <!--
-    <iconUrl>http://download.codeplex.com/Project/Download/FileDownload.aspx?ProjectName=FluentValidation&amp;DownloadId=166226</iconUrl>
+    <iconUrl>http://download.codeplex.com/Project/Download/FileDownload.aspx?....</iconUrl>
     -->
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Interacitve Pregenerated Views for Entity Framework 6.</description>
