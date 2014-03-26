@@ -4,15 +4,15 @@
     <id>EFInteractiveViews</id>
     <version>1.0.0</version>
     <authors>Pawel "moozzyk" Kadluczka</authors>
-    <title>Interacitve Pregenerated Views for Entity Framework 6</title>
+    <title>Interactive Pregenerated Views for Entity Framework 6</title>
     <licenseUrl>https://efinteractiveviews.codeplex.com/license</licenseUrl>
     <projectUrl>https://efinteractiveviews.codeplex.com</projectUrl>
     <!--
     <iconUrl>http://download.codeplex.com/Project/Download/FileDownload.aspx?....</iconUrl>
     -->
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Interacitve Pregenerated Views for Entity Framework 6.</description>
-    <summary>Interacitve Pregenerated Views for Entity Framework 6.</summary>
+    <description>Interactive Pregenerated Views for Entity Framework 6.</description>
+    <summary>Interactive Pregenerated Views for Entity Framework 6.</summary>
     <language>en-US</language>
     <tags>EF6 EF Entity Framework Pregenerated Views moozzyk blog.3d-logic.com</tags>
     
