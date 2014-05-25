@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>EFInteractiveViews</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <authors>Pawel "moozzyk" Kadluczka</authors>
     <title>Interactive Pregenerated Views for Entity Framework 6</title>
     <licenseUrl>https://efinteractiveviews.codeplex.com/license</licenseUrl>

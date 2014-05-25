@@ -83,7 +83,7 @@
         private void VerifyModel(XDocument modelEdmx, string tableName, string schemaName)
         {
             var expectedCsdl =
-              "<Schema Namespace=\"InteractivePreGeneratedViews\" Alias=\"Self\" annotation:UseStrongSpatialTypes=\"false\" xmlns:annotation=\"http://schemas.microsoft.com/ado/2009/02/edm/annotation\" xmlns=\"http://schemas.microsoft.com/ado/2009/11/edm\">" +
+              "<Schema Namespace=\"InteractivePreGeneratedViews\" Alias=\"Self\" annotation:UseStrongSpatialTypes=\"false\" xmlns:annotation=\"http://schemas.microsoft.com/ado/2009/02/edm/annotation\"  xmlns=\"http://schemas.microsoft.com/ado/2009/11/edm\">" +
               "  <EntityType Name=\"DatabaseViewCacheEntry\">" +
               "    <Key>" +
               "      <PropertyRef Name=\"ConceptualModelContainerName\" />" +
