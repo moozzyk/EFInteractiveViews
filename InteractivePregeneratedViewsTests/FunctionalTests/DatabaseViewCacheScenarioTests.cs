@@ -34,13 +34,13 @@
 
                 InteractiveViews
                     .SetViewCacheFactory(
-                        ctx, 
+                        ctx,
                         new SqlServerViewCacheFactory(connectionString));
-                
+
                 ctx.Entities.Count();
 
                 XDocument viewsXml;
-                using (var viewCacheContext = 
+                using (var viewCacheContext =
                     new DatabaseViewCacheContext(new SqlConnection(connectionString)))
                 {
                     viewsXml = XDocument.Parse(viewCacheContext.ViewCache.Single().ViewDefinitions);
