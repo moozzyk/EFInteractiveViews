@@ -41,4 +41,4 @@ using (var ctx = new MyContext())
 }
 ```
 
-*Note that the factory that generates and persists views in the database will create a table in the target database for storing views if the table does not exist. If the table cannot be created (e.g. the database does not exist or due to insufficient permissions) an exception will be thrown.*
+**Note that the factory that generates and persists views in the database will create a table in the target database for storing views if the table does not exist. If the table cannot be created (e.g. the database does not exist or due to insufficient permissions) an exception will be thrown.**
