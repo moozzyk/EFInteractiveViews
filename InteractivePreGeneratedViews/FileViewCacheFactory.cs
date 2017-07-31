@@ -79,7 +79,27 @@
 
             lock (_lockObject)
             {
-                viewsXml.Save(_viewFilePath);
+                if (File.Exists(_viewFilePath))
+                {
+                    // Prevent a race condition whereby two threads could call Load(), both receive a null return, then both call Save(). While
+                    // the lock prevents simultaneous saving, the views would still be saved twice in succession, which is unnecessary.
+                    return;
+                }
+
+                try
+                {
+                    viewsXml.Save(_viewFilePath);
+                }
+                catch(IOException e)
+                {
+                    if (e.HResult == unchecked ( (int)0x80070020 ))
+                    {
+                        // Prevent a race condition whereby two processes could call Load(), both receive a null return, then both call Save().
+                        // This will result in an IOException: "The process cannot access the file because it is being used by another process".
+                        return;
+                    }
+                    throw;
+                }
             }
         }
     }
