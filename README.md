@@ -42,3 +42,7 @@ using (var ctx = new MyContext())
 ```
 
 **Note that the factory that generates and persists views in the database will create a table in the target database for storing views if the table does not exist. If the table cannot be created (e.g. the database does not exist or due to insufficient permissions) an exception will be thrown.**
+
+## Disclaimer
+
+I am providing code in the repository to you under an open source license. Because this is my personal repository, the license you receive to my code is from me and not my employer (Facebook)
